@@ -29,6 +29,8 @@ public class List extends Menu {
     }
 
     public void markTaskAsCompleted() {
+        viewTasks();
+        System.out.println();
         System.out.print("Enter the task number to mark as completed: ");
         int completedTask = scanner.nextInt();
         scanner.nextLine();

@@ -19,6 +19,7 @@ public class Menu {
     }
 
     public static int displayMenu() {
+        System.out.println();
         System.out.println("To-Do List Menu:");
         System.out.println("-------------------");
         System.out.println();
